@@ -25,6 +25,9 @@ Recon Crawler is a tool that automates the process of OSINT and Web Enumeration 
  $> pip install -r requirements.txt
  ```
  
+## Modules Description:
+ TO be Added.
+ 
 ## Usage:
  To execute the code, run the following command:
  ```bash
