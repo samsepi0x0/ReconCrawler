@@ -1,0 +1,5 @@
+Subdomains: 
+www.vitbhopal.ac.in
+hras.vitbhopal.ac.in
+mailer.vitbhopal.ac.in
+registration.vitbhopal.ac.in

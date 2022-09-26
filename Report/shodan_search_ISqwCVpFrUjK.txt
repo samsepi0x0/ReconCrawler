@@ -1,0 +1,101 @@
+Matches: 
+IP: 103.172.70.73	Port: 8181	ORG: PT JARINGAN LINTAS ARTHA
+IP: 172.105.49.121	Port: 9000	ORG: Linode
+IP: 92.118.2.251	Port: 9000	ORG: Plinq BV
+IP: 185.67.3.247	Port: 80	ORG: LTD HOSTPRO LAB
+IP: 213.111.54.196	Port: 8080	ORG: Nomotech SAS
+IP: 212.111.43.4	Port: 80	ORG: Linode, LLC
+IP: 139.162.213.30	Port: 8080	ORG: 139.162.0.0/16
+IP: 139.162.213.30	Port: 81	ORG: 139.162.0.0/16
+IP: 45.79.55.200	Port: 37215	ORG: Linode
+IP: 172.105.49.121	Port: 8888	ORG: Linode
+IP: 45.79.55.200	Port: 60001	ORG: Linode
+IP: 45.79.55.200	Port: 81	ORG: Linode
+IP: 178.79.158.151	Port: 80	ORG: Linode, LLC
+IP: 172.104.91.65	Port: 52869	ORG: Linode
+IP: 212.111.43.4	Port: 49152	ORG: Linode, LLC
+IP: 87.139.109.109	Port: 8080	ORG: Deutsche Telekom AG
+IP: 172.105.174.178	Port: 8080	ORG: Linode
+IP: 138.123.62.124	Port: 8080	ORG: Delaware Technical Community College
+IP: 99.3.97.73	Port: 8080	ORG: AT&T Corp.
+IP: 86.86.252.179	Port: 8010	ORG: KPN B.V.
+IP: 172.105.97.164	Port: 37215	ORG: Linode
+IP: 139.162.213.30	Port: 80	ORG: 139.162.0.0/16
+IP: 94.227.86.27	Port: 8080	ORG: Telenet N.V. Residentials
+IP: 46.253.32.35	Port: 80	ORG: Corporacio Megatel S.L.
+IP: 175.138.87.249	Port: 8086	ORG: TMNST
+IP: 119.230.87.178	Port: 8008	ORG: OPTAGE Inc.
+IP: 12.87.20.234	Port: 9090	ORG: AT&T Worldnet Services
+IP: 185.67.3.247	Port: 50000	ORG: LTD HOSTPRO LAB
+IP: 158.39.114.144	Port: 8080	ORG: Academic and research institutions,
+IP: 195.189.29.6	Port: 8181	ORG: Jusan Mobile JSC
+IP: 203.174.35.70	Port: 8080	ORG: HKBN Enterprise Solutions HK Limited
+IP: 139.162.213.30	Port: 37215	ORG: 139.162.0.0/16
+IP: 163.172.152.168	Port: 81	ORG: Scaleway Dedibox - Paris, France
+IP: 172.104.91.65	Port: 50000	ORG: Linode
+IP: 185.67.2.195	Port: 8888	ORG: LTD HOSTPRO LAB
+IP: 98.242.16.189	Port: 81	ORG: Comcast Cable Communications, Inc.
+IP: 172.104.143.118	Port: 80	ORG: Linode
+IP: 81.43.4.242	Port: 8080	ORG: Telefonica de Espana SAU
+IP: 174.77.152.253	Port: 8080	ORG: Cox Communications
+IP: 163.172.152.168	Port: 80	ORG: Scaleway Dedibox - Paris, France
+IP: 83.40.42.109	Port: 80	ORG: Telefonica de Espana SAU
+IP: 79.161.117.42	Port: 83	ORG: Altibox AS
+IP: 79.31.102.220	Port: 8080	ORG: Telecom Italia S.p.A.
+IP: 139.162.213.30	Port: 52869	ORG: 139.162.0.0/16
+IP: 79.242.215.100	Port: 8080	ORG: Deutsche Telekom AG
+IP: 172.105.97.164	Port: 81	ORG: Linode
+IP: 172.105.174.178	Port: 81	ORG: Linode
+IP: 212.50.18.179	Port: 8090	ORG: Spectrum Net Infrastructure
+IP: 172.105.49.121	Port: 80	ORG: Linode
+IP: 73.156.111.21	Port: 8090	ORG: Comcast IP Services, L.L.C.
+IP: 63.158.237.58	Port: 8080	ORG: CenturyLink Communications, LLC
+IP: 81.133.95.150	Port: 8080	ORG: BT Infrastructure Layer
+IP: 93.40.2.198	Port: 9999	ORG: Fastweb SpA
+IP: 185.67.2.195	Port: 80	ORG: LTD HOSTPRO LAB
+IP: 172.105.174.178	Port: 80	ORG: Linode
+IP: 139.59.56.96	Port: 8888	ORG: DigitalOcean, LLC
+IP: 157.245.201.199	Port: 80	ORG: DigitalOcean, LLC
+IP: 79.31.102.220	Port: 80	ORG: Telecom Italia S.p.A.
+IP: 77.32.73.207	Port: 80	ORG: EOLO S.p.A.
+IP: 109.233.191.228	Port: 8090	ORG: None
+IP: 38.39.212.132	Port: 20000	ORG: Sho Me Technologies, LLC
+IP: 52.190.192.83	Port: 4782	ORG: Microsoft Corporation
+IP: 172.104.91.65	Port: 8888	ORG: Linode
+IP: 88.203.201.150	Port: 8080	ORG: Sofia, Bulgaria
+IP: 172.105.97.164	Port: 8080	ORG: Linode
+IP: 104.177.153.145	Port: 8080	ORG: Private Customer - AT&T Internet Services
+IP: 92.249.178.130	Port: 8080	ORG: DIGI Tavkozlesi es Szolgaltato Kft.
+IP: 83.144.123.206	Port: 8080	ORG: UPC Polska Sp. z o.o.
+IP: 172.104.143.118	Port: 60001	ORG: Linode
+IP: 172.104.143.118	Port: 8080	ORG: Linode
+IP: 85.15.190.72	Port: 8888	ORG: Dynamic distribution IP's for broadband services
+IP: 122.116.41.8	Port: 8080	ORG: Chunghwa Telecom Co.,Ltd.
+IP: 172.105.97.164	Port: 52869	ORG: Linode
+IP: 139.59.56.96	Port: 37215	ORG: DigitalOcean, LLC
+IP: 79.136.3.73	Port: 8123	ORG: Bahnhof AB
+IP: 139.59.56.96	Port: 50000	ORG: DigitalOcean, LLC
+IP: 176.72.254.41	Port: 8050	ORG: Telia Yritys Internet
+IP: 84.178.70.69	Port: 8081	ORG: Deutsche Telekom AG
+IP: 185.67.2.195	Port: 49152	ORG: LTD HOSTPRO LAB
+IP: 172.104.143.118	Port: 52869	ORG: Linode
+IP: 79.31.102.220	Port: 9000	ORG: Telecom Italia S.p.A.
+IP: 24.239.126.20	Port: 8800	ORG: Armstrong
+IP: 194.209.125.194	Port: 8080	ORG: B (BUSINESS)-NURSERY SA
+IP: 85.8.67.179	Port: 8080	ORG: EWE TEL GmbH
+IP: 185.67.3.247	Port: 37215	ORG: LTD HOSTPRO LAB
+IP: 172.104.91.65	Port: 7547	ORG: Linode
+IP: 91.167.246.66	Port: 8080	ORG: ONLINE S.A.S.
+IP: 172.105.174.178	Port: 8888	ORG: Linode
+IP: 170.253.11.150	Port: 8080	ORG: XTRA TELECOM S.A.
+IP: 45.56.92.229	Port: 81	ORG: Linode
+IP: 1.213.178.190	Port: 20000	ORG: LG DACOM Corporation
+IP: 185.67.2.195	Port: 50000	ORG: LTD HOSTPRO LAB
+IP: 139.162.23.141	Port: 60001	ORG: Linode, LLC
+IP: 45.79.55.200	Port: 8888	ORG: Linode
+IP: 172.104.143.118	Port: 8888	ORG: Linode
+IP: 84.182.91.229	Port: 8080	ORG: Deutsche Telekom AG
+IP: 185.53.42.184	Port: 8080	ORG: Stadtnetz Bamberg Gesellschaft fuer Telekommunikation mbH
+IP: 172.105.49.121	Port: 37215	ORG: Linode
+IP: 181.166.130.232	Port: 8080	ORG: Telecom Argentina S.A.
+IP: 212.111.43.4	Port: 60001	ORG: Linode, LLC

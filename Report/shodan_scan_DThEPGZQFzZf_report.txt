@@ -1,0 +1,2 @@
+IP Address: 24.239.126.20Hostnames: 	dynamic-acs-24-239-126-20.zoominternet.net 
+City: Cranberry TownshipOrganisation: ArmstrongOperating System: NonePorts:	21 80 443 5432 5600 8800 9090 

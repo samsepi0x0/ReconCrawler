@@ -1,0 +1,10 @@
+[!] API INFORMATION: 
+	Monitored IPs: 0
+	Plan: oss
+	Query Credits: 0
+	Scan Credits: 0
+	Usage Limits:
+
+		Monitored IPs: 0
+		Query Credits: 0
+		Scan Credits: 0

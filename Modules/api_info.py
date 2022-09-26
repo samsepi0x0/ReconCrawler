@@ -26,7 +26,7 @@ def shodan_api_info(report=False):
     print("\t\tScan Credits: ", parsed['usage_limits']['scan_credits'] , colors.STOP)
     if report:
         try:
-            with open("../Report/api_info.txt", 'w') as file:
+            with open("Report/api_info.txt", 'w') as file:
                 file.write("[!] API INFORMATION: ")
                 file.write("\n")
                 file.write("\tMonitored IPs: " + str(parsed['monitored_ips']))
