@@ -26,13 +26,16 @@ def banner():
     else:
         command = "clear"
     res = os.system(command)
-    print("\n" + color.BLUE+"""     ____  _____ ____ ___  _   _   ____ ____      ___        ___     _____ ____  
-    |  _ \| ____/ ___/ _ \| \ | | / ___|  _ \    / \ \      / / |   | ____|  _ \ 
-    | |_) |  _|| |  | | | |  \| || |   | |_) |  / _ \ \ /\ / /| |   |  _| | |_) |
-    |  _ <| |__| |__| |_| | |\  || |___|  _ <  / ___ \ V  V / | |___| |___|  _ < 
-    |_| \_\_____\____\___/|_| \_(_)____|_| \_\/_/   \_\_/\_/  |_____|_____|_| \_\\""" + color.STOP)
-    print()
-    print ("    "+ "-"*77)
+    
+    
+    print(color.BLUE +"""
+    ██████╗░███████╗░█████╗░░█████╗░███╗░░██╗  ░█████╗░██████╗░░█████╗░░██╗░░░░░░░██╗██╗░░░░░███████╗██████╗░
+    ██╔══██╗██╔════╝██╔══██╗██╔══██╗████╗░██║  ██╔══██╗██╔══██╗██╔══██╗░██║░░██╗░░██║██║░░░░░██╔════╝██╔══██╗
+    ██████╔╝█████╗░░██║░░╚═╝██║░░██║██╔██╗██║  ██║░░╚═╝██████╔╝███████║░╚██╗████╗██╔╝██║░░░░░█████╗░░██████╔╝
+    ██╔══██╗██╔══╝░░██║░░██╗██║░░██║██║╚████║  ██║░░██╗██╔══██╗██╔══██║░░████╔═████║░██║░░░░░██╔══╝░░██╔══██╗
+    ██║░░██║███████╗╚█████╔╝╚█████╔╝██║░╚███║  ╚█████╔╝██║░░██║██║░░██║░░╚██╔╝░╚██╔╝░███████╗███████╗██║░░██║
+    ╚═╝░░╚═╝╚══════╝░╚════╝░░╚════╝░╚═╝░░╚══╝  ░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚══════╝╚══════╝╚═╝░░╚═╝""" + color.STOP)
+    print ("    "+ "-"*104)
     print()
 
 def banner_shodan():
@@ -41,13 +44,15 @@ def banner_shodan():
     else:
         command = "clear"
     res = os.system(command)
-    print("\n" + color.BLUE + """     ____  _   _       ____              
-    / ___|| | | | ___ |  _ \  __ _ _ __  
-    \___ \| |_| |/ _ \| | | |/ _` | '_ \ 
-     ___) |  _  | (_) | |_| | (_| | | | |
-    |____/|_| |_|\___/|____/ \__,_|_| |_|""" + color.STOP)
+    print("\n" + color.BLUE + """
+    ░██████╗██╗░░██╗░█████╗░██████╗░░█████╗░███╗░░██╗
+    ██╔════╝██║░░██║██╔══██╗██╔══██╗██╔══██╗████╗░██║
+    ╚█████╗░███████║██║░░██║██║░░██║███████║██╔██╗██║
+    ░╚═══██╗██╔══██║██║░░██║██║░░██║██╔══██║██║╚████║
+    ██████╔╝██║░░██║╚█████╔╝██████╔╝██║░░██║██║░╚███║
+    ╚═════╝░╚═╝░░╚═╝░╚════╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝""" + color.STOP)
     print()
-    print ("    "+ "-"*38)
+    print ("    "+ "-"*50)
     print()
 
 def banner_web():
@@ -56,13 +61,15 @@ def banner_web():
     else:
         command = "clear"
     res = os.system(command)
-    print(color.BLUE + """    __        __   _           ____       ____            
-    \ \      / /__| |__       |  _ \ ___ / ___|___  _ __  
-     \ \ /\ / / _ \ '_ \ _____| |_) / _ \ |   / _ \| '_ \ 
-      \ V  V /  __/ |_) |_____|  _ <  __/ |__| (_) | | | |
-       \_/\_/ \___|_.__/      |_| \_\___|\____\___/|_| |_|""" + color.STOP)
+    print(color.BLUE + """
+    ░██╗░░░░░░░██╗███████╗██████╗░  ██████╗░███████╗░█████╗░░█████╗░███╗░░██╗
+    ░██║░░██╗░░██║██╔════╝██╔══██╗  ██╔══██╗██╔════╝██╔══██╗██╔══██╗████╗░██║
+    ░╚██╗████╗██╔╝█████╗░░██████╦╝  ██████╔╝█████╗░░██║░░╚═╝██║░░██║██╔██╗██║
+    ░░████╔═████║░██╔══╝░░██╔══██╗  ██╔══██╗██╔══╝░░██║░░██╗██║░░██║██║╚████║
+    ░░╚██╔╝░╚██╔╝░███████╗██████╦╝  ██║░░██║███████╗╚█████╔╝╚█████╔╝██║░╚███║
+    ░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░  ╚═╝░░╚═╝╚══════╝░╚════╝░░╚════╝░╚═╝░░╚══╝""" + color.STOP)
     print()
-    print ("    "+ "-"*57)
+    print ("    "+ "-"*74)
     print()
 
 def banner_dns():
@@ -72,14 +79,15 @@ def banner_dns():
         command = "clear"
     res = os.system(command)
 
-    print(color.BLUE + """     ____  _   _ ____        _____                       
-    |  _ \| \ | / ___|      | ____|_ __  _   _ _ __ ___  
-    | | | |  \| \___ \ _____|  _| | '_ \| | | | '_ ` _ \ 
-    | |_| | |\  |___) |_____| |___| | | | |_| | | | | | |
-    |____/|_| \_|____/      |_____|_| |_|\__,_|_| |_| |_|
-                                                     """ + color.STOP)
+    print(color.BLUE + r"""
+    ██████╗░███╗░░██╗░██████╗  ███████╗███╗░░██╗██╗░░░██╗███╗░░░███╗
+    ██╔══██╗████╗░██║██╔════╝  ██╔════╝████╗░██║██║░░░██║████╗░████║
+    ██║░░██║██╔██╗██║╚█████╗░  █████╗░░██╔██╗██║██║░░░██║██╔████╔██║
+    ██║░░██║██║╚████║░╚═══██╗  ██╔══╝░░██║╚████║██║░░░██║██║╚██╔╝██║
+    ██████╔╝██║░╚███║██████╔╝  ███████╗██║░╚███║╚██████╔╝██║░╚═╝░██║
+    ╚═════╝░╚═╝░░╚══╝╚═════╝░  ╚══════╝╚═╝░░╚══╝░╚═════╝░╚═╝░░░░░╚═╝""" + color.STOP)
     print()
-    print ("    "+ "-"*54)
+    print ("    "+ "-"*65)
     print()
 
 def banner_osint():
@@ -89,11 +97,13 @@ def banner_osint():
         command = "clear"
     res = os.system(command)
 
-    print(color.BLUE + """       ___  ____  _   _ ___ _   _ _____ 
-     / _ \/ ___|| | | |_ _| \ | |_   _|
-    | | | \___ \| |_| || ||  \| | | |  
-    | |_| |___) |  _  || || |\  | | |  
-     \___/|____/|_| |_|___|_| \_| |_|  """ + color.STOP)
+    print(color.BLUE + """
+    ░█████╗░░██████╗██╗███╗░░██╗████████╗
+    ██╔══██╗██╔════╝██║████╗░██║╚══██╔══╝
+    ██║░░██║╚█████╗░██║██╔██╗██║░░░██║░░░
+    ██║░░██║░╚═══██╗██║██║╚████║░░░██║░░░
+    ╚█████╔╝██████╔╝██║██║░╚███║░░░██║░░░
+    ░╚════╝░╚═════╝░╚═╝╚═╝░░╚══╝░░░╚═╝░░░""" + color.STOP)
 
     print()
     print("    "+ "-"*35)
@@ -103,12 +113,12 @@ def main():
     banner()
     while True:
         report = False
-        print("    " + "-"*77)
-        print(color.BOLD + "0. Banner\n1. Shodan Scans")
-        print("2. Web Enumeration")
-        print("3. DNS Enumeration")
-        print("4. OSINT")
-        print("99. Exit")
+        print("    " + "-"*104)
+        print(color.BOLD + "\t0. Banner\n\t1. Shodan Scans")
+        print("\t2. Web Enumeration")
+        print("\t3. DNS Enumeration")
+        print("\t4. OSINT")
+        print("\t99. Exit")
         print("" + color.STOP)
         choice = int(input(">>> "))
         if choice == 99:
@@ -124,7 +134,7 @@ def main():
             continue
         if choice == 1:
             banner_shodan()
-            print(color.BOLD + "\n\n1. API Info \n2. Host Scanner \n3. Search Query\n99. Back to Main Menu" + color.STOP)
+            print(color.BOLD + "\n\n\t1. API Info \n\t2. Host Scanner \n\t3. Search Query\n\t99. Back to Main Menu" + color.STOP)
             choice1 = int(input(">>> "))
             if choice1 == 99:
                 banner()
@@ -154,7 +164,7 @@ def main():
                 continue
         elif choice == 2:
             banner_web()
-            print(color.BOLD + "\n\n1.Web Crawler\n2. DirBuster\n3. Subdomain Lookup\n99.Back to Main Menu" + color.STOP)
+            print(color.BOLD + "\n\n\t1.Web Crawler\n\t2. DirBuster\n\t3. Subdomain Lookup\n\t99.Back to Main Menu" + color.STOP)
             choice2 = int(input(">>> "))
             if choice2 == 99:
                 banner()
@@ -184,7 +194,7 @@ def main():
                 continue
         elif choice == 3:
             banner_dns()
-            print(color.BOLD + "\n\n1. Check Domain Registration\n2. Whois Information Retrieval\n99. Back to Main Menu" + color.STOP)
+            print(color.BOLD + "\n\n\t1. Check Domain Registration\n\t2. Whois Information Retrieval\n\t99. Back to Main Menu" + color.STOP)
             choice3 = int(input(">>> "))
             if choice3 == 99:
                 banner()
@@ -206,7 +216,7 @@ def main():
                 continue
         elif choice == 4:
             banner_osint()
-            print(color.BOLD + "\n\n1. Username Recon\n2. Port Scanner\n99. Back to Main Menu." + color.STOP)
+            print(color.BOLD + "\n\n\t1. Username Recon\n\t2. Port Scanner\n\t99. Back to Main Menu." + color.STOP)
             choice4 = int(input(">>> "))
             if choice4 == 99:
                 banner()
