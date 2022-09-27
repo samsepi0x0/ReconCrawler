@@ -164,7 +164,7 @@ def main():
                 continue
         elif choice == 2:
             banner_web()
-            print(color.BOLD + "\n\n\t1.Web Crawler\n\t2. DirBuster\n\t3. Subdomain Lookup\n\t99.Back to Main Menu" + color.STOP)
+            print(color.BOLD + "\n\n\t1. Web Crawler\n\t2. DirBuster\n\t3. Subdomain Lookup\n\t99.Back to Main Menu" + color.STOP)
             choice2 = int(input(">>> "))
             if choice2 == 99:
                 banner()
