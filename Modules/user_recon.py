@@ -15,14 +15,14 @@ def user():
     if chkfb(username) != None:
         print (color.GREEN + "[+] FaceBook Account Exists." + color.STOP)
         count += 1
-    if chktwitter(username) != None:
-        print (color.GREEN + "[+] Twitter Account Exists." + color.STOP)
+    if chkreddit(username) != False:
+        print (color.GREEN + "[+] Reddit Account Exists." + color.STOP)
         count += 1
     if chkgit(username) != None:
         print (color.GREEN + "[+] Github Account Exists. " + color.STOP)
         count += 1
     if count == 0:
-        print (color.RED + "[-] Username %s not found on Facebook,Twitter And Github"%(user), color.STOP)
+        print (color.RED + "[-] Username %s not found on Facebook, Reddit or Github"%(username), color.STOP)
 
 
 def chkfb(username):
@@ -34,14 +34,24 @@ def chkfb(username):
     else:
         return None
 
-def chktwitter(username):
-    link2 = "https://twitter.com/" + username
-    resp2 = requests.get(link2)
-    status = BeautifulSoup(resp2.text, 'html.parser')
-    if resp2.status_code == 200:
-        return True
-    else:
-        return None
+def chkreddit(username):
+    link2 = "https://www.reddit.com/user/" + username
+    resp2 = requests.get(link2,headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'})
+    status = BeautifulSoup(resp2.content, 'html.parser')
+    for item in status.find_all('img'):
+    #    print(item['src'])
+        if item['src'] == "https://www.redditstatic.com/desktop2x/img/snoomoji/snoo_thoughtful.png":
+            return False
+    return True
+
+    # if status.find_all('img') == True:
+    #     return False
+    # else:
+    #     return True
+#    if resp2.status_code == 200:
+#        return True
+#    else:
+#        return None
 
 def chkgit(username):
     link3 = "https://github.com/" + username
@@ -51,3 +61,4 @@ def chkgit(username):
         return True
     else:
         return None 
+#user()
