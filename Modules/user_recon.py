@@ -12,17 +12,20 @@ class color:
 def user():
     count = 0
     username = str(input(color.BOLD + "Username: " + color.STOP))
-    if chkfb(username) != None:
+    if chkfb(username) != False:
         print (color.GREEN + "[+] FaceBook Account Exists." + color.STOP)
         count += 1
     if chkreddit(username) != False:
         print (color.GREEN + "[+] Reddit Account Exists." + color.STOP)
         count += 1
-    if chkgit(username) != None:
+    if chkgit(username) != False:
         print (color.GREEN + "[+] Github Account Exists. " + color.STOP)
         count += 1
+    if chktwitter(username) != False:
+        print (color.GREEN + "[+] Twitter Account Exists. " + color.STOP)
+        count += 1
     if count == 0:
-        print (color.RED + "[-] Username %s not found on Facebook, Reddit or Github"%(username), color.STOP)
+        print (color.RED + "[-] Username %s not found on Facebook, Reddit, Github or Twitter"%(username), color.STOP)
 
 
 def chkfb(username):
@@ -32,26 +35,16 @@ def chkfb(username):
     if resp1.status_code == 200:
         return True
     else:
-        return None
+        return False
 
 def chkreddit(username):
     link2 = "https://www.reddit.com/user/" + username
     resp2 = requests.get(link2,headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'})
     status = BeautifulSoup(resp2.content, 'html.parser')
     for item in status.find_all('img'):
-    #    print(item['src'])
         if item['src'] == "https://www.redditstatic.com/desktop2x/img/snoomoji/snoo_thoughtful.png":
             return False
     return True
-
-    # if status.find_all('img') == True:
-    #     return False
-    # else:
-    #     return True
-#    if resp2.status_code == 200:
-#        return True
-#    else:
-#        return None
 
 def chkgit(username):
     link3 = "https://github.com/" + username
@@ -60,5 +53,14 @@ def chkgit(username):
     if resp3.status_code == 200:
         return True
     else:
-        return None 
+        return False 
+
+def chktwitter(username):
+    link4 = "https://twitter.com/" + username
+    resp4 = requests.get(link4,headers={'User-Agent': 'APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)'})
+    status = BeautifulSoup(resp4.text, 'html.parser')
+    if status.find_all('html',{'class':"dog"}):
+        return False
+    return True
+
 #user()
