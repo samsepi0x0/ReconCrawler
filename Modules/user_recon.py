@@ -27,12 +27,13 @@ def user():
     if count == 0:
         print (color.RED + "[-] Username %s not found on Facebook, Reddit, Github or Twitter"%(username), color.STOP)
 
-
 def chkfb(username):
     link1 = "https://facebook.com/" + username
-    resp1 = requests.get(link1)
+    resp1 = requests.get(link1,headers={'User-Agent': 'APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)'})
     status = BeautifulSoup(resp1.text, 'html.parser')
     if resp1.status_code == 200:
+        if status.find_all('html', {'class':'no_js','id':'facebook'}):
+            return False
         return True
     else:
         return False
