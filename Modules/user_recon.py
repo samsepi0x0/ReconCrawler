@@ -24,8 +24,11 @@ def user():
     if chktwitter(username) != False:
         print (color.GREEN + "[+] Twitter Account Exists. " + color.STOP)
         count += 1
+    if chkig(username) != False:
+        print (color.GREEN + "[+] Instagram Account Exists. " + color.STOP)
+        count += 1
     if count == 0:
-        print (color.RED + "[-] Username %s not found on Facebook, Reddit, Github or Twitter"%(username), color.STOP)
+        print (color.RED + "[-] Username %s not found on Facebook, Reddit, Github, Twitter, & Instagram"%(username), color.STOP)
 
 def chkfb(username):
     link1 = "https://facebook.com/" + username
@@ -63,5 +66,13 @@ def chktwitter(username):
     if status.find_all('html',{'class':"dog"}):
         return False
     return True
-
+    
+def chkig(username):
+    link5 = "https://instagram.com/" + username
+    resp5 = requests.get(link5,headers={'User-Agent': 'APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)'})
+    status = BeautifulSoup(resp5.content, 'html.parser')
+    # print(status)
+    if status.find_all('link', {'href':'https://www.instagram.com/%s/'%username}):
+        return True
+    return False
 #user()
