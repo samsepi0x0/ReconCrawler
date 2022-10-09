@@ -62,4 +62,4 @@ Recon Crawler is a tool that automates the process of OSINT and Web Enumeration 
  ![USERNAME_RECONNAISSANCE](https://raw.githubusercontent.com/samsepi0x0/ReconCrawler/main/Screenshot%20from%202022-09-27%2012-14-05.png)
 
 ## Contributions:
-Feel free to fork and create a pull request to contribute to this repository. You know the rules and so do I. ( ͡👁️ ͜ʖ ͡👁️) 
+Feel free to fork and create a pull request to contribute to this repository. You know the rules and so do I.
